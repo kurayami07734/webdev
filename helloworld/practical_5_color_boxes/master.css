@@ -1,0 +1,28 @@
+.box1 {
+  background-color: aquamarine;
+  height: 400px;
+  width: 400px;
+  border: 2px solid cornflowerblue;
+  left: 50px;
+  position: relative;
+}
+body {
+  background-color: black;
+}
+#name1 {
+  position: relative;
+  top: 50px;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px;
+  color: rgb(128, 8, 32);
+}
+.box2 {
+  float: right;
+  background-color: rgb(17, 209, 17);
+  height: 400px;
+  width: 400px;
+  border: 2px solid rgb(226, 130, 20);
+  left: 50px;
+  position: relative;
+}

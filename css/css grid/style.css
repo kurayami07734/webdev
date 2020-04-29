@@ -1,0 +1,38 @@
+#grid{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(246, 247, 241);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 10px;
+    height: 50px;
+    width: auto;
+    position: relative;
+    top: 20px;
+}
+#grid > div{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(2, 37, 37);
+}
+#grid > div:hover{
+    background-color: slategrey;
+    color: springgreen;
+    font-size: x-large;
+    font-style: italic;
+}
+#grid > div:nth-child(odd){
+    background-color: rgb(28, 43, 2);
+}
+header{
+    position: relative;
+    left: 25%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    background-color: slategray;
+    width: 600px;
+    height: auto;
+}
+body{
+    background-color: rgb(32, 36, 39);
+}

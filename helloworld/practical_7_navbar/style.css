@@ -1,0 +1,23 @@
+.navbar {
+  background-color: rgb(26, 23, 23);
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  padding: 20px;
+}
+
+a:link {
+  color: azure;
+  padding: 20px;
+  text-decoration: none;
+}
+a:hover {
+  padding: 20px;
+  color: aquamarine;
+  background-color: black;
+}
+a:visited {
+  padding: 20px;
+  color: rgb(32, 71, 243);
+  text-decoration: none;
+}

@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+header {
+  text-align: center;
+  color: rgb(236, 134, 49);
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1rem solid #11214d;
+  background-color: #141b38;
+  border-radius: 1.3rem;
+  font-size: 5rem;
+}
+body {
+  background-color: rgba(8, 6, 17, 0.89);
+}
+.img_container1 {
+  position: relative;
+  background-color: coral;
+  border: rgba(104, 158, 22, 0.877);
+  border-style: solid;
+  top: 6rem;
+  border-width: 0.3rem;
+  transition: 0.25s;
+}
+.img_container2 {
+  position: relative;
+  top: 13rem;
+  background-color: rgba(37, 247, 166, 0.719);
+  border: rgba(16, 55, 163, 0.726);
+  border-style: solid;
+  border-width: 0.3rem;
+  transition: 0.25s;
+}
+.copyright {
+  position: relative;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 30rem;
+  height: auto;
+  bottom: -20rem;
+  left: 0rem;
+  padding: 2rem;
+  border: 0.3rem solid rgb(142, 30, 187);
+  background-color: rgb(37, 36, 36);
+  color: rgb(142, 30, 187);
+}
+.shop {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3.5rem;
+  background-color: rgb(19, 20, 27);
+  position: fixed;
+  bottom: 1.5rem;
+  right: 3rem;
+}
+.img_config1 {
+  filter: grayscale(100%);
+  width: 30rem;
+  height: auto;
+  margin: 3rem;
+  transition: 0.25s;
+}
+.img_config1:hover {
+  filter: unset;
+  width: 33rem;
+  height: auto;
+}
+.img_config2:hover {
+  filter: unset;
+  width: 24.75rem;
+  height: auto;
+  border: 0.2rem solid black;
+}
+.img_config2 {
+  filter: grayscale(100%);
+  width: 22.5rem;
+  height: auto;
+  margin: 2.5rem;
+  transition: 0.25s;
+}
+a:visited {
+  color: rgba(146, 30, 255, 0.815);
+  background-color: rgba(119, 16, 216, 0.418);
+  text-decoration: underline;
+}
+a:active {
+  color: crimson;
+}
+a:link {
+  border-radius: 1.5rem;
+  color: aquamarine;
+  text-decoration-style: wavy;
+}
+a:hover {
+  font-size: 4rem;
+  font-style: italic;
+  color: rgba(199, 19, 6, 0.815);
+}
